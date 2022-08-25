@@ -22,8 +22,10 @@
             {{ $current_comics['title'] }}
         </h1>
 
+        {{-- Green Stripe --}}
         <div class="green-stripe">
 
+            {{-- Price --}}
             <div class="price">
                 <span class="light-green">
                     U.S. Price:
@@ -33,18 +35,26 @@
                     {{ $current_comics['price'] }}
                 </span>
 
+                {{-- Available --}}
                 <span class="available light-green">
                     available
                 </span>
             </div>
 
+            {{-- Check Availability --}}
             <div class="check-availability white">
-                <span>
-                    check Availability 
-
-                    <i class="fa-solid fa-caret-down"></i>
+                <span class="padding">
+                    Check Availability 
                 </span>
+
+                {{-- Caret Down Icon --}}
+                <i class="fa-solid fa-caret-down"></i>
             </div>
+        </div>
+
+        {{-- Description --}}
+        <div class="description">
+            {{ $current_comics['description'] }}
         </div>
     </div>
     

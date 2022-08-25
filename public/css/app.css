@@ -289,17 +289,27 @@ footer .footer-bottom .social ul li {
 }
 .col-container .col-left .green-stripe .price {
   border-right: 1px solid black;
-  width: 400px;
+  width: 67%;
 }
 .col-container .col-left .green-stripe .available {
   text-transform: uppercase;
   margin-left: 148px;
+}
+.col-container .col-left .green-stripe .check-availability {
+  width: 33%;
+}
+.col-container .col-left .green-stripe .check-availability .padding {
+  padding-left: 20px;
+  padding-right: 5px;
 }
 .col-container .col-left .green-stripe .light-green {
   color: #b2f991;
 }
 .col-container .col-left .green-stripe .white {
   color: white;
+}
+.col-container .col-left .description {
+  padding-top: 20px;
 }
 .col-container .col-right {
   width: 30%;

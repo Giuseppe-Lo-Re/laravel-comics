@@ -41,13 +41,21 @@
 
             .price {
                 border-right: 1px solid black;
-                width: 400px;
+                width: 67%;
             }
 
             .available {
                 text-transform: uppercase;
                 margin-left: 148px;
                 
+            }
+            .check-availability {
+                width: 33%;
+
+                .padding {
+                    padding-left: 20px;
+                    padding-right: 5px;
+                }
             }
 
             .light-green {
@@ -57,6 +65,10 @@
             .white {
                 color: white;
             }
+        }
+
+        .description {
+            padding-top: 20px;
         }
     }
     
