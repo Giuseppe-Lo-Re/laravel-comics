@@ -12,43 +12,43 @@
             <!-- Menu -->
             <div class="menu">
                 <ul>
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'characters' ? 'current' : ''}}">
                         <a href="{{ route('characters') }}">characters</a> 
                     </li>
 
-                    <li class="current">
+                    <li class="{{ Route::current()->getName() === 'comics' ? 'current' : ''}}">
                         <a href="{{ route('comics') }}">comics</a> 
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'movies' ? 'current' : ''}}">
                         <a href="{{ route('movies') }}">movies</a> 
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'tv' ? 'current' : ''}}">
                         <a href="{{ route('tv') }}">tv</a> 
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'games' ? 'current' : ''}}">
                         <a href="{{ route('games') }}">games</a> 
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'collectibles' ? 'current' : ''}}">
                         <a href="{{ route('collectibles') }}">collectibles</a> 
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'videos' ? 'current' : ''}}">
                         <a href="{{ route('videos') }}">videos</a> 
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'fans' ? 'current' : ''}}">
                         <a href="{{ route('fans') }}">fans</a>
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'news' ? 'current' : ''}}">
                         <a href="{{ route('news') }}">news</a>
                     </li>
 
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'shop' ? 'current' : ''}}">
                         <a href="{{ route('shop') }}">shop</a>
                     </li>
                 </ul>
