@@ -247,3 +247,38 @@ footer .footer-bottom .social ul {
 footer .footer-bottom .social ul li {
   margin: 0 10px;
 }
+
+.blue-stripe {
+  background-color: #0d82f9;
+  height: 80px;
+  position: relative;
+}
+
+.card-container {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  top: -248px;
+  left: 286px;
+}
+
+.col-container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.col-container .col-left {
+  width: 70%;
+}
+.col-container .col-left h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.col-container .col-right {
+  width: 30%;
+}
+.col-container .col-right h5 {
+  text-transform: uppercase;
+}

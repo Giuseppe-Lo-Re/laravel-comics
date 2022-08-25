@@ -55,5 +55,9 @@ Route::get('/news', function () {
 })->name('news');
 
 Route::get('/shop', function () {
-    return view('shop');
+    return view('shop'); 
 })->name('shop');
+
+Route::get('/product/{id}', function ($id) {
+    return view('single-product');
+})->name('single'); 
