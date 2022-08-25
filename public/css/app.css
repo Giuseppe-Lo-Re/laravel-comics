@@ -273,8 +273,33 @@ footer .footer-bottom .social ul li {
 }
 .col-container .col-left h1 {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 10px;
+}
+.col-container .col-left .green-stripe {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.col-container .col-left .green-stripe .price,
+.col-container .col-left .green-stripe .available,
+.col-container .col-left .green-stripe .check-availability {
+  background-color: #55ba59;
+  padding: 10px;
+}
+.col-container .col-left .green-stripe .price {
+  border-right: 1px solid black;
+  width: 400px;
+}
+.col-container .col-left .green-stripe .available {
+  text-transform: uppercase;
+  margin-left: 148px;
+}
+.col-container .col-left .green-stripe .light-green {
+  color: #b2f991;
+}
+.col-container .col-left .green-stripe .white {
+  color: white;
 }
 .col-container .col-right {
   width: 30%;

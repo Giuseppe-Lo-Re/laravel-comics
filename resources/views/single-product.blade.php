@@ -6,10 +6,10 @@
 
 {{-- Blue Stripe --}}
 <div class="blue-stripe">
-    {{dd($current_comics)}};
+    
     {{-- Single Product --}}
     <div class="card-container">
-        <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
+        <img src="{{ $current_comics['thumb'] }}" alt="{{ $current_comics['title'] }}">
     </div>
 </div>
 
@@ -19,8 +19,33 @@
 
         {{-- Title --}}
         <h1>
-            action comics #1000: the deluxe edition
+            {{ $current_comics['title'] }}
         </h1>
+
+        <div class="green-stripe">
+
+            <div class="price">
+                <span class="light-green">
+                    U.S. Price:
+                </span>
+
+                <span class="white">
+                    {{ $current_comics['price'] }}
+                </span>
+
+                <span class="available light-green">
+                    available
+                </span>
+            </div>
+
+            <div class="check-availability white">
+                <span>
+                    check Availability 
+
+                    <i class="fa-solid fa-caret-down"></i>
+                </span>
+            </div>
+        </div>
     </div>
     
     <div class="col-right">
