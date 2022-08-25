@@ -59,5 +59,18 @@ Route::get('/shop', function () {
 })->name('shop');
 
 Route::get('/product/{id}', function ($id) {
-    return view('single-product');
+    $comics_series_array = config('comics');
+    $current_comics = [];
+
+    foreach($comics_series_array as $comics_item) {
+        if($comics_item['id'] == $id) {
+            $current_comics = $comics_item;
+        }
+    }
+
+    $data = [
+        'current_comics' => $current_comics
+    ];
+        
+    return view('single-product', $data);
 })->name('single'); 
