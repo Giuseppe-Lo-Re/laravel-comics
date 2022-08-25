@@ -77,6 +77,36 @@
 
         h5 {
             text-transform: uppercase; 
+            text-align: right;
+            padding-bottom: 5px;
         }
+
+        img {
+            padding-left: 30px;
+        }
+    }
+}
+
+.talent {
+    background-color:#f6f6f6;
+
+    .col-left {
+        width: 50%;
+
+        .artists-wrapper {
+            display: flex;
+
+            .art {
+                width: 30%;
+            }
+
+            .artists {
+                width: 70%;
+            }
+        }
+    }
+
+    .blue {
+        color: $brand_secondary_color;
     }
 }

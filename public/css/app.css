@@ -316,4 +316,28 @@ footer .footer-bottom .social ul li {
 }
 .col-container .col-right h5 {
   text-transform: uppercase;
+  text-align: right;
+  padding-bottom: 5px;
+}
+.col-container .col-right img {
+  padding-left: 30px;
+}
+
+.talent {
+  background-color: #f6f6f6;
+}
+.talent .col-left {
+  width: 50%;
+}
+.talent .col-left .artists-wrapper {
+  display: flex;
+}
+.talent .col-left .artists-wrapper .art {
+  width: 30%;
+}
+.talent .col-left .artists-wrapper .artists {
+  width: 70%;
+}
+.talent .blue {
+  color: #0d82f9;
 }

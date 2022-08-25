@@ -62,11 +62,79 @@
         <h5>
             advertisement
         </h5>
-        
-        <img src="{{ asset('../img/adv.jpg') }}" alt="advertisement">
+
+        <img src="{{ asset('../img/img-right.jpg') }}" alt="advertisement">
     </div>
 
 </div>
+
+{{-- Talent/Specs Section --}}
+<section class="talent">
+    <div class="col-container">
+
+        {{-- Talent --}}
+        <div class="col-left">
+            
+            <div class="artists-wrapper">
+                
+                {{-- Art by --}}
+                <div class="art-by">
+                    Art by:
+                </div>
+    
+                {{-- Artist --}}
+                <div class="artists">
+                    @foreach ($current_comics['artists'] as $artist)
+                        <span class="blue">
+                            {{ $artist }}
+                        </span>
+                        @if(!$loop->last), @endif
+                    @endforeach
+                </div>
+
+                {{-- Written by --}}
+                <div class="written-by">
+                    written by:
+                </div>
+
+                {{-- Writers --}}
+                <div class="writers">
+                    @foreach ($current_comics['writers'] as $writers)
+                        <span class="blue">
+                            {{ $writers }}
+                        </span>
+                        @if(!$loop->last), @endif
+                    @endforeach
+                </div>
+            </div>
+        </div>
+
+        {{-- Specs --}}
+        <div class="col-right">
+            
+            <div class="series">
+                <span>
+                    Series:
+                </span>
+                
+                <span class="blue">
+                    {{ $current_comics['series'] }}
+                </span>
+            </div>
+
+            <div class="series">
+                <span>
+                    Series:
+                </span>
+                
+                <span class="blue">
+                    {{ $current_comics['series'] }}
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 @endsection
