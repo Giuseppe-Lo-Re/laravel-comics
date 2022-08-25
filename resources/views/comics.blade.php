@@ -20,7 +20,11 @@
         
                     <!-- Image -->
                     <div class="img-wrapper">
-                        <img src="{{$comics_item['thumb']}}" alt="{{$comics_item['title']}}">
+                        <a href="{{ route('single', [
+                            'id' => $comics_item['id']
+                        ]) }}">
+                            <img src="{{$comics_item['thumb']}}" alt="{{$comics_item['title']}}">
+                        </a>
                     </div>
         
                     <!-- Title -->
