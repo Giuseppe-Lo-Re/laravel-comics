@@ -117,18 +117,28 @@
                     Series:
                 </span>
                 
-                <span class="blue">
+                <span class="blue uppercase">
                     {{ $current_comics['series'] }}
                 </span>
             </div>
 
-            <div class="series">
+            <div class="specs-price">
                 <span>
-                    Series:
+                    U.S. Price:
                 </span>
                 
-                <span class="blue">
-                    {{ $current_comics['series'] }}
+                <span>
+                    {{ $current_comics['price'] }}
+                </span>
+            </div>
+
+            <div class="sale">
+                <span>
+                    On Sale Date:
+                </span>
+                
+                <span>
+                    {{ $current_comics['sale_date'] }}
                 </span>
             </div>
         </div>

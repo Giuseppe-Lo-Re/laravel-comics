@@ -341,3 +341,6 @@ footer .footer-bottom .social ul li {
 .talent .blue {
   color: #0d82f9;
 }
+.talent .uppercase {
+  text-transform: uppercase;
+}
