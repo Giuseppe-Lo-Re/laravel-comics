@@ -66,7 +66,7 @@
                     
                     <!-- link Info -->
                     <div class="text">
-                        digital comics
+                        dc merchandise
                     </div>    
                 </a>
 
@@ -77,7 +77,7 @@
                     
                     <!-- link Info -->
                     <div class="text">
-                        digital comics
+                        subscription
                     </div>    
                 </a>
 
@@ -88,7 +88,7 @@
                     
                     <!-- link Info -->
                     <div class="text">
-                        digital comics
+                        comic shop locator
                     </div>    
                 </a>
 
@@ -99,7 +99,7 @@
                     
                     <!-- link Info -->
                     <div class="text">
-                        digital comics
+                        dc power visa
                     </div>    
                 </a>
             </li>

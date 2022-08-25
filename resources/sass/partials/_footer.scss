@@ -1,0 +1,80 @@
+footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+
+    .footer-top {
+        display: flex;
+        padding: 40px 0;
+        position: relative;
+        overflow: hidden;
+
+        h3 {
+            text-transform: uppercase;
+            color: white;
+            padding-block: 20px;
+        }
+
+        li {
+
+            a {
+                text-decoration: none;
+                color: $brand_tertiary_color;
+                font-size: 12px;
+            }
+        }
+
+        .nav-center {
+            padding-inline: 30px;
+        }
+        
+        .img-container {
+            position: absolute;
+            top:-100px;
+            right:50px;
+
+            img {
+                width: 550px;
+            }
+        }
+    }
+
+    .footer-bottom {
+        background-color: #303030;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 20px;
+        }
+
+        .btn {
+            text-transform: uppercase;
+            border: 2px solid $brand_secondary_color;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .social {
+            display: flex;
+            align-items: center;
+
+            .follow-us {
+                text-transform: uppercase;
+                color: $brand_secondary_color;
+                font-size: 18px;
+                font-weight: bold;
+                padding-right: 20px;
+            }
+
+            ul {
+                display: flex;
+
+                li {
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+}
