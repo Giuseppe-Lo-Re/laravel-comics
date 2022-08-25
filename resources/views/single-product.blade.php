@@ -62,6 +62,8 @@
         <h5>
             advertisement
         </h5>
+        
+        <img src="{{ asset('../img/adv.jpg') }}" alt="advertisement">
     </div>
 
 </div>

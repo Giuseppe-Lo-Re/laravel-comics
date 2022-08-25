@@ -51,7 +51,8 @@
                 <a href="#">
 
                     <!-- link Image -->
-                    <img src="img/buy-comics-digital-comics.png" alt="buy-comics-digital-comics">
+                    
+                    <img src="{{ asset('../img/buy-comics-digital-comics.png') }}" alt="buy-comics-digital-comics">
                     
                     <!-- link Info -->
                     <div class="text">
@@ -60,9 +61,9 @@
                 </a>
 
                 <a href="#">
-
+                    
                     <!-- link Image -->
-                    <img src="img/buy-comics-merchandise.png" alt="buy-comics-merchandise">
+                    <img src="{{ asset('../img/buy-comics-merchandise.png') }}" alt="buy-comics-merchandise">
                     
                     <!-- link Info -->
                     <div class="text">
@@ -71,9 +72,9 @@
                 </a>
 
                 <a href="#">
-
+                    
                     <!-- link Image -->
-                    <img src="img/buy-comics-subscriptions.png" alt="buy-comics-merchandise">
+                    <img src="{{ asset('../img/buy-comics-subscriptions.png') }}" alt="buy-comics-subscriptions">
                     
                     <!-- link Info -->
                     <div class="text">
@@ -82,9 +83,9 @@
                 </a>
 
                 <a href="#">
-
+                    
                     <!-- link Image -->
-                    <img src="img/buy-comics-shop-locator.png" alt="buy-comics-merchandise">
+                    <img src="{{ asset('../img/buy-comics-shop-locator.png') }}" alt="buy-comics-shop-locator">
                     
                     <!-- link Info -->
                     <div class="text">
@@ -95,7 +96,7 @@
                 <a href="#">
 
                     <!-- link Image -->
-                    <img src="img/buy-dc-power-visa.svg" alt="buy-comics-merchandise">
+                    <img src="{{ asset('../img/buy-dc-power-visa.svg') }}" alt="buy-dc-power-visa">
                     
                     <!-- link Info -->
                     <div class="text">
@@ -106,5 +107,4 @@
         </ul>
     </div>
 </section>
-
 @endsection
