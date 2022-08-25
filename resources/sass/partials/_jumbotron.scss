@@ -1,0 +1,43 @@
+section {
+    background-color: black;
+
+    .jumbotron {
+        background-image: url('/img/jumbotron.jpg');
+        background-position: top;
+        height: 400px;
+        position: relative;
+    }
+
+    .title {
+        text-transform: uppercase;
+        color: white;
+        background-color: $brand_secondary_color;
+        border: 1px solid $brand_secondary_color;
+        display: inline;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        
+        &.position {
+            position: absolute;
+            bottom: 242px;
+            left: 60px;
+        }
+
+        &.padding-cursor {
+            padding: 10px 80px;
+            cursor: pointer;
+        }
+    }
+    
+    .products-list {
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrapper {
+        text-align: center;
+        padding: 50px;
+    }
+}  

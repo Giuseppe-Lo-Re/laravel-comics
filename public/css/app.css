@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-wrapper .logo {
+  width: 80px;
+  cursor: pointer;
+}
+header .header-wrapper ul {
+  display: flex;
+  padding-right: 50px;
+}
+header .header-wrapper ul li {
+  text-transform: uppercase;
+  margin: 0 15px;
+  line-height: 94px;
+  text-decoration: none;
+  color: #4e5355;
+  font-size: 13px;
+  font-weight: bold;
+}
+header .header-wrapper ul li.current {
+  color: #0d82f9;
+  border-bottom: 1px solid #0d82f9;
+  border-bottom-width: 5px;
+}
+
+section {
+  background-color: black;
+}
+section .jumbotron {
+  background-image: url("/img/jumbotron.jpg");
+  background-position: top;
+  height: 400px;
+  position: relative;
+}
+section .title {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0d82f9;
+  border: 1px solid #0d82f9;
+  display: inline;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+section .title.position {
+  position: absolute;
+  bottom: 242px;
+  left: 60px;
+}
+section .title.padding-cursor {
+  padding: 10px 80px;
+  cursor: pointer;
+}
+section .products-list {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+section .wrapper {
+  text-align: center;
+  padding: 50px;
+}
+
+section {
+  background-color: black;
+}
+section .jumbotron {
+  background-image: url("/img/jumbotron.jpg");
+  background-position: top;
+  height: 400px;
+  position: relative;
+}
+section .title {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0d82f9;
+  border: 1px solid #0d82f9;
+  display: inline;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+section .title.position {
+  position: absolute;
+  bottom: 242px;
+  left: 60px;
+}
+section .title.padding-cursor {
+  padding: 10px 80px;
+  cursor: pointer;
+}
+section .products-list {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+section .wrapper {
+  text-align: center;
+  padding: 50px;
+}
+section .product-card-container {
+  width: 16.6666666667%;
+}
+section .product-card-container .product-card {
+  cursor: pointer;
+}
+section .product-card-container .product-card .img-wrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+section .product-card-container .product-card .img-wrapper img {
+  padding: 10px;
+}
+section .product-card-container .product-card .product-title {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 15px 10px 30px 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  background-color: #0d82f9;
+}
+.links img {
+  width: 60px;
+  height: 65px;
+}
+.links li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+}
+.links li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-right: 10px;
+  color: white;
+}
+.links li a .text {
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-size: 14px;
+}

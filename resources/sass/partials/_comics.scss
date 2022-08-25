@@ -1,0 +1,101 @@
+section {
+    background-color: black;
+
+    .jumbotron {
+        background-image: url('/img/jumbotron.jpg');
+        background-position: top;
+        height: 400px;
+        position: relative;
+    }
+
+    .title {
+        text-transform: uppercase;
+        color: white;
+        background-color: $brand_secondary_color;
+        border: 1px solid $brand_secondary_color;
+        display: inline;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        
+        &.position {
+            position: absolute;
+            bottom: 242px;
+            left: 60px;
+        }
+
+        &.padding-cursor {
+            padding: 10px 80px;
+            cursor: pointer;
+        }
+    }
+    
+    .products-list {
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .wrapper {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .product-card-container {
+        width: calc((100% / 6));
+        
+        .product-card {
+            cursor: pointer;
+    
+            .img-wrapper {
+                width: 200px;
+                height: 200px;
+                overflow: hidden;
+    
+                img {
+                    padding: 10px;
+                }
+            }
+    
+            .product-title {
+                color: white;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 15px 10px 30px 10px;
+            }
+        }
+    }
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: $brand_secondary_color;
+
+    img {
+        width: 60px;
+        height: 65px;
+    }
+
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 30px;
+        
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            padding-right: 10px;
+            color: white;
+
+            .text {
+                text-transform: uppercase;
+                padding-left: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}

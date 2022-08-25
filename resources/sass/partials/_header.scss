@@ -1,0 +1,35 @@
+header {
+    background-color: white;
+    
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+           width: 80px;
+           cursor: pointer;
+        }
+    
+        ul {
+            display: flex;
+            padding-right: 50px;
+
+            li {
+                text-transform: uppercase;
+                margin: 0 15px;
+                line-height: 94px;
+                text-decoration: none;
+                color: $brand_main_color;
+                font-size: 13px;
+                font-weight: bold;
+
+                &.current {
+                    color: $brand_secondary_color;          
+                    border-bottom: 1px solid $brand_secondary_color;
+                    border-bottom-width: 5px;
+                }
+            }
+        }       
+    }
+}
